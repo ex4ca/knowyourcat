@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_gameOverMessage",
   "bbox_bottom": 42,
-  "bbox_left": 9,
-  "bbox_right": 395,
+  "bbox_left": 5,
+  "bbox_right": 493,
   "bbox_top": 16,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -20,6 +20,7 @@
   "height": 64,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5c6f7d24-1ea9-44d8-9606-bdd3f32a448e","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ce1f763b-ddc0-4479-bd95-3f26b038d177","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
