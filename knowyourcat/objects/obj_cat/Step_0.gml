@@ -14,14 +14,16 @@ if keyboard_check(vk_down)
 if keyboard_check(vk_left)
 {
 	x = x - 5;
+	image_xscale = 1;
 }
 
 if keyboard_check(vk_right)
 {
 	x = x + 5;
+	image_xscale = -1;
 }
 
-move_wrap(true, true, 0);
+move_wrap(0, 0, 0);
 
 
 

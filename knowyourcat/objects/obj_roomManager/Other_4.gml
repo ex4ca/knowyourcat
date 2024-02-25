@@ -9,13 +9,17 @@ if (instance_exists(targetInstance)) {
 		instance_create_layer(0, 0, "Instances", obj_cat);
 	}
 	
+	if (room == room_get_name(WinRoom))
+	{
+		instance_destroy();
+	}
+	
 	// Move player to target
 	obj_cat.x = targetInstance.x;
 	obj_cat.y = targetInstance.y;
-	
+
 	// Clear target
 	targetInstance = noone;
 }
-
 
 

@@ -6,7 +6,9 @@ effect_create_above(ef_explosion, x + 100, y + 100, 100, c_white);
 
 instance_destroy();
 
-obj_game.alarm[0] = 60;
+obj_game.alarm[0] = 30;
+
+
 
 
 

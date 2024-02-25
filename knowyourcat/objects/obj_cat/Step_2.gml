@@ -16,8 +16,8 @@ if obj_game.points == 350
 		room_goto(_exit.targetRoom);
 	
 		obj_roomManager.targetInstance = _exit.targetInstance;
-
-		entered_room = false;
+		
+		entered_room = false;	
 	}
 }
 
